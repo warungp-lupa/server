@@ -1,0 +1,278 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+     <title>Warung Bebek Palupi</title>
+
+     <meta charset="UTF-8">
+     <meta http-equiv="X-UA-Compatible" content="IE=Edge">
+     <meta name="description" content="">
+     <meta name="keywords" content="">
+     <meta name="author" content="">
+     <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+     <link rel="stylesheet" href="static\css\bootstrap.min.css">
+     <link rel="stylesheet" href="static\css\animate.css">
+     <link rel="stylesheet" href="static\css\style-home.css">
+
+</head>
+<body>
+     <!-- MENU -->
+     <section class="navbar custom-navbar navbar-fixed-top" role="navigation">
+          <div class="container">
+               <div class="navbar-header">
+                    <button class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+                         <span class="icon icon-bar"></span>
+                         <span class="icon icon-bar"></span>
+                         <span class="icon icon-bar"></span>
+                    </button>
+
+                    <!-- lOGO TEXT HERE -->
+                    <a href="Templates\home.html" class="navbar-brand">Warung <span>.</span> Palupi</a>
+               </div>
+
+               <!-- MENU LINKS -->
+               <div class="collapse navbar-collapse">
+                    <ul class="nav navbar-nav navbar-nav-first">
+                         <li><a href="#home" class="smoothScroll">Beranda</a></li>
+                         <li><a href="#about" class="smoothScroll">Tentang Kami</a></li>
+                         <li><a href="#menu" class="smoothScroll">Menu</a></li>
+                         <li><a href="#testimonial" class="smoothScroll">Testimoni</a></li>
+                         <li><a href="#contact" class="smoothScroll">Lokasi</a></li>
+                    </ul>
+                    <ul class="nav navbar-nav navbar-right">
+                         <li><a>Hubungi <i class="fa fa-phone"></i> (031) 5040064</a></li>
+                         <a href="#masuk" id="masukBtn" class="section-btn">Masuk</a>
+                    </ul>
+                    <ul class="open-popup-btn" style="display: flex;">
+                         <div id="popup-form" class="popup">
+                              <form class="popup-content" action="/submit" method="post">
+                                <span class="close">&times;</span>
+                                <h2>Masuk Akun</h2>
+                                <p>Silahkan masukkan data diri anda dengan benar untuk memesan di warung kami</p>                                
+                                <div>
+                                <label for="email">Email:</label>
+                                <input type="email" id="email" name="email" required></div>
+                                <div><label for="password">Password:</label>
+                                <input type="password" id="password" name="password" required></div>
+                                <p></p>
+                                <div><a href="#masuk" class="section-btn">Masuk Akun</a></div>
+                                <div>
+                                <p>Belum punya akun? <a href="#daftar" class="daftar">Daftar Sekarang</a></p>
+                                </div>
+                              </form>
+                         </div>
+                         <!-- <div id="regist-form" class="popup-regist">
+                              <form class="popup-content" action="/submit" method="post">
+                                <span class="close">&times;</span>
+                                <h2>Daftar Akun</h2>
+                                <p>Silahkan masukkan data diri anda dengan benar untuk memesan di warung kami</p>   
+                                <div>
+                                <label for="nama">Nama Lengkap:</label>
+                                <input type="text" id="nama" name="nama" required></div>                             
+                                <div>
+                                <label for="email">Email:</label>
+                                <input type="email" id="email" name="email" required></div>
+                                <label for="alamat">Alamat:</label>
+                                <input type="text" id="alamat" name="alamat" required></div>
+                                <label for="telp">No Telepon:</label>
+                                <input type="number" id="telp" name="Telepon" required></div>
+                                <div><label for="password">Password:</label>
+                                <input type="password" id="password" name="password" required></div>
+                                <div>
+                                <label for="password-ulang">Ketik Ulang Password:</label>
+                                <input type="password" id="password-ulang" name="password-ulang" required></div>
+                                <p></p>
+                                <div><a href="#daftar" class="section-btn">Daftar Akun</a></div>
+                                <div>
+                                <p>Sudah punya akun? <a href="#masuk" class="Masuk>Masuk Akun</a></p>
+                                </div>
+                              </form>
+                         </div> -->
+                    </ul>
+               </div>
+          </div>
+     </section>
+
+     <!-- HOME -->
+     <section id="home" class="slider" data-stellar-background-ratio="0.5">
+          <div class="row">
+                    <div class="owl-carousel owl-theme">
+                         <div class="item item-first">
+                              <div class="caption">
+                                   <div class="container">
+                                        <div class="col-md-8 col-sm-12">
+                                             <h3>Warung Bebek &amp; Lauk Lainnya </h3>
+                                             <h1>Menyajikan berbagai macam penyetan enak, lezat, nikmat.</h1>
+                                             <a href="#menu" class="section-btn btn btn-default smoothScroll">Lihat Menu</a>
+                                        </div>
+                                   </div>
+                              </div>
+                         </div>
+
+          </div>
+     </section>
+
+
+     <!-- ABOUT -->
+     <section id="about" data-stellar-background-ratio="0.5">
+          <div class="container">
+               <div class="row">
+
+                    <div class="col-md-6 col-sm-12">
+                         <div class="about-info">
+                              <div class="section-title wow fadeInUp" data-wow-delay="0.2s">
+                                   <h4>Sejarah</h4>
+                                   <h2>Awal Mula Warung Palupi</h2>
+                              </div>
+
+                              <div class="wow fadeInUp" data-wow-delay="0.4s">
+                                   <p>Cerita dimulai pada tahun 1980-an, ketika seorang ibu bernama Ibu Palupi, dengan keahlian memasak warisan keluarga, mulai menjual bebek goreng di pinggir jalan. Meskipun usahanya sederhana, rasa bebek gorengnya begitu lezat dan spesial sehingga mulai menarik perhatian masyarakat sekitar.
+                                   <p>Melihat minat yang meningkat dari pelanggan setianya, Ibu Palupi dan keluarganya memutuskan untuk membuka warung bebek kecil di pinggir jalan tersebut. Dengan usaha keras dan keahlian memasak yang dimiliki Ibu Palupi, warung bebek tersebut mulai berkembang pesat.</p>
+                                   <p>Saat ini, warung Bebek Palupi telah menjadi salah satu destinasi kuliner yang wajib dikunjungi di Surabaya. Meskipun telah berkembang dan memiliki cabang di beberapa tempat, Bebek Palupi tetap mempertahankan cita rasa autentik dan tradisionalnya yang telah menjadi ciri khasnya selama puluhan tahun.</p>
+                              </div>
+                         </div>
+                    </div>
+
+                    <div class="col-md-6 col-sm-12">
+                         <div class="wow fadeInUp about-image" data-wow-delay="0.6s">
+                              <img src="static\image\warungnya.jpg" class="img-responsive" alt="">
+                         </div>
+                    </div>
+                    
+               </div>
+          </div>
+     </section>
+
+     <!-- MENU-->
+     <section id="menu" data-stellar-background-ratio="0.5">
+          <div class="container">
+               <div class="row">
+                    <div class="col-md-12 col-sm-12">
+                         <div class="section-title wow fadeInUp" data-wow-delay="0.1s">
+                              <h2>Menu Kami</h2>
+                              <h4>Nasi &amp; Penyetan</h4>
+                         </div>
+                    </div>
+
+                    <div class="col-md-4 col-sm-6">
+                         <!-- MENU THUMB -->
+                         <div class="listProduct"></div>
+                                   <div class="menu-info">
+                                        <div class="menu-item">
+                                             <h3>Deli Burger</h3>
+                                             <p>Beef / Fried Potatoes</p>
+                                        </div>
+                                        <div class="menu-price">
+                                             <span>$46</span>
+                                        </div>
+                                   </div>
+                              </a>
+                         </div>
+                    </div>
+
+                    <div class="col-md-4 col-sm-6">
+                         <!-- MENU THUMB -->
+                         <div class="menu-thumb">
+                              <a href="images/menu-image6.jpg" class="image-popup" title="Project title">
+                                   <img src="images/menu-image6.jpg" class="img-responsive" alt="">
+
+                                   <div class="menu-info">
+                                        <div class="menu-item">
+                                             <h3>Big Flat Fried</h3>
+                                             <p>Pepper / Crispy</p>
+                                        </div>
+                                        <div class="menu-price">
+                                             <span>$30</span>
+                                        </div>
+                                   </div>
+                              </a>
+                         </div>
+                    </div>
+
+
+               </div>
+          </div>
+     </section>
+
+
+     <!-- TESTIMONI -->
+     <section id="testimonial" data-stellar-background-ratio="0.5">
+          <div class="overlay"></div>
+          <div class="container">
+               <div class="row">
+
+                    <div class="col-md-12 col-sm-12">
+                         <div class="section-title wow fadeInUp" data-wow-delay="0.1s">
+                              <h2>Testimoni</h2>
+                         </div>
+                    </div>  
+
+                    <div class="col-md-offset-2 col-md-8 col-sm-12">
+                         <div class="owl-carousel owl-theme">
+                              <div class="item">
+                                   <p>Rasanya enaaak! Bebeknya tipikal yang kering dan krispi di luar tapi lembut di dalem. Kalau ke sini pas makan siang siap-siap antre karena ruameeee banget. Minus tempatnya sempit dan panas. Selain bebek, ada ayam dan jeroan lainnya. Rekomended banget yg suka bebek kering dan untuk sambelnya kurang pedes tapi enak buat dimakan👍👍👍</p>
+                                        <div class="tst-author">
+                                             <h4>Hafni Iva N</h4>
+                                             <span>Pengunjung Lokal</span>
+                                        </div>
+                              </div>
+                         </div>
+                    </div>
+
+               </div>
+          </div>
+     </section>  
+
+
+     <!-- CONTACT -->
+     <section id="contact" data-stellar-background-ratio="0.5">
+          <div class="container">
+               <div class="row">
+                    <div class="wow fadeInUp col-md-6 col-sm-12" data-wow-delay="0.4s">
+                         <div id="google-map">
+                              <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d63319.94920559316!2d112.69623015239303!3d-7.297942066935639!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2dd7fac32e4f865f%3A0x8b1a1f2b450b3614!2sBebek%20Goreng%20Palupi%20Rungkut!5e0!3m2!1sid!2sid!4v1710363154929!5m2!1sid!2sid" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                         </div>
+                    </div>    
+                    <div class="footer">
+                    <div class="row">
+                      <div class="col-md-4 col-sm-8">
+                           <div class="footer-info">
+                                <div class="section-title">
+                                     <h2 class="wow fadeInUp" data-wow-delay="0.2s">Jam Buka Warung</h2>
+                                </div>
+                                <div class="wow fadeInUp" data-wow-delay="0.4s">
+                                     <p>Senin - Kamis: 09.30 - 22.00</p>
+                                     <p>Jum'at: 13.00 - 22.00</p>
+                                     <p>Sabtu - Minggu: 09.30 - 22.00</p>
+                                     <div>
+                                          <strong>Alamat</strong>
+                                          <p>Jl. Rungkut Asri Tengah No.10, Rungkut Kidul, Kec. Rungkut, Surabaya, Jawa Timur 60293 </p>
+                                     </div>
+                                     <div>
+                                          <strong>Hubungi</strong>
+                                          <p>031-87853271</p>
+                                     </div>
+                                </div>
+                           </div>
+                         </div>
+                      </div>
+  
+                      <div class="col-md-2 col-sm-4">
+                           <ul class="wow fadeInUp social-icon" data-wow-delay="0.4s">
+                                <li><a href="#" class="fa fa-facebook-square" attr="facebook icon"></a></li>
+                                <li><a href="#" class="fa fa-twitter"></a></li>
+                                <li><a href="#" class="fa fa-instagram"></a></li>
+                                <li><a href="#" class="fa fa-google"></a></li>
+                           </ul>
+                           </div>
+                      </div>
+               </div>
+          </div>
+     </section>          
+
+
+     <!-- SCRIPTS -->
+     <script src="static\js\home.js"></script>
+
+</body>
+</html>
