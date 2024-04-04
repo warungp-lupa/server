@@ -6,11 +6,10 @@ app = Flask(__name__)
 app.config.from_object(Config)
 db = SQLAlchemy(app)
 
-from views import *
-# from auth import *
-# from menu import *
-# from antrian import *
-# from pembayaran import *
+from menu import *
+from pemesanan import *
+from antrian import *
+from pembayaran import *
 
 if __name__ == '__main__':
     app.run(host='0.0.0.0',debug=False)
