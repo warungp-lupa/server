@@ -26,3 +26,8 @@ class Pembayaran(db.Model):
     id_pembeli = db.Column(db.Integer, db.ForeignKey('pemesanan.id_pembeli'))
     opsi_bayar = db.Column(db.String(20))
     total_harga = db.Column(db.Integer)
+
+class Antrian(db.Model):
+    id = db.Column(db.Integer, primary_key=True)
+    nama_pelanggan = db.Column(db.String(50), nullable=False)
+    nomor_antrian = db.Column(db.Integer, nullable=False)
