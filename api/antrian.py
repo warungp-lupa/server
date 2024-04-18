@@ -8,7 +8,7 @@ def tambah_antrian():
     data = request.get_json()
     nama_pelanggan = data.get('nama_pelanggan')
     
-    # Mendapatkan nomor antrian terakhir
+    # Untuk mendapatkan nomor antrian terakhir
     nomor_terakhir = Antrian.query.order_by(Antrian.nomor_antrian.desc()).first()
     nomor_antrian_baru = 1 if nomor_terakhir is None else nomor_terakhir.nomor_antrian + 1
     
